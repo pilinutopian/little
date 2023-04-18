@@ -58,6 +58,13 @@ img {
   height: auto;
 }
 
+.pili {
+  border-radius: 50%;
+  width: 80%;
+  filter: drop-shadow(2px 4px 6px black);
+
+}
+
 button {
   border: 0;
   background-color: transparent;
@@ -92,7 +99,7 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
+  background-color:#02221cb3;
 }
 nav.navbar a.navbar-brand {
     width: 9%;
@@ -243,7 +250,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  background: linear-gradient(90.21deg, rgb(231 139 88 / 50%) -5.91%, rgb(0 110 144 / 38%) 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-bottom: 16px;
@@ -258,11 +265,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: block;
 }
 .banner p {
-  color: #B8B8B8;
+  color: #ffffff;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
+  background: #cbc5a73d;
 }
 .banner button {
   color: #fff;
@@ -304,9 +312,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill {
   padding: 0 0 50px 0;
   position: relative;
+  background-color: #f0d2a1;
 }
 .skill-bx {
-  background: #151515;
+  background:#ffdfa994;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -315,9 +324,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill h2 {
 	font-size: 45px;
 	font-weight: 700;
+  color: #002122c9;
 }
 .skill p {
-    color: #B8B8B8;
+    color: #081f1c;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
@@ -333,11 +343,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 0 auto 15px auto;
 }
 .background-image-left {
-  top: 28%;
   position: absolute;
   bottom: 0;
-  width: 40%;
+  width: 100%;
   z-index: -4;
+  height: fit-content;
 }
 
 /************ Projects Css ************/
